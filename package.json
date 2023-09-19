@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@fluentui/react": "^8.111.2",
+    "@types/office-js": "^1.0.343",
+    "office-ui-fabric-react": "^7.204.0"
+  }
+}

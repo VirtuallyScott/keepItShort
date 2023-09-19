@@ -1,0 +1,21 @@
+<ExtensionPoint xsi:type="Module">
+  <OfficeTab id="TabDefault">
+    <ModuleType>Events</ModuleType>
+    <SourceLocation resid="functionFileUrl"/>
+    <Events>
+      <Event Type="ItemSending" FunctionExecutionType="synchronous" FunctionName="calculateMeetingCost" />
+    </Events>
+  </OfficeTab>
+</ExtensionPoint>
+<Resources>
+  <!-- ... other resources ... -->
+  <bt:Images>
+    <!-- ... images ... -->
+  </bt:Images>
+  <bt:Urls>
+    <!-- ... other urls ... -->
+    <bt:Url id="functionFileUrl" DefaultValue="https://localhost:3000/function-file.html" />
+  </bt:Urls>
+  <!-- ... -->
+</Resources>
+

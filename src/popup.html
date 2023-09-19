@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Meeting Cost</title>
+</head>
+<body>
+  <div id="message"></div>
+  <script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+  <script type="text/javascript">
+    Office.onReady(() => {
+      const message = new URL(location.href).searchParams.get('message');
+      document.getElementById('message').innerText = message;
+    });
+  </script>
+</body>
+</html>
+
